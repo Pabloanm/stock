@@ -1,3 +1,5 @@
+"Inventories & Stock" is an app to easily and quickly manage the inventories of your business... 
+
 ######################
 Super Admin Credential
 ######################
