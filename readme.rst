@@ -6,15 +6,26 @@ Super Admin Credential
 email: admin@admin.com
 password: password
 
+######################
+Database
+######################
 database name: stock
 
-Front: AdminLTE Ver2 
-Upgrade Guide (https://adminlte.io/docs/3.0/upgrade-guide.html)
+####################
+architectural pattern
+####################
+Model–view–controller (MVC)
+
+######################
+FrontEnd
+######################
+AdminLTE Ver2 
+please visit: "Upgrade Guide" (https://adminlte.io/docs/3.0/upgrade-guide.html)
 
 ####################
-PHP with CodeIgniter
+BackEnd
 ####################
-
+Php 
 CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
 much faster than you could if you were writing code from scratch, by providing
@@ -22,6 +33,7 @@ a rich set of libraries for commonly nseeded tasks, as well as a simple
 interface and logical structure to access these libraries. CodeIgniter lets
 you creatively focus on your project by minimizing the amount of code needed
 for a given task.
+
 
 *******************
 Release Information
@@ -47,11 +59,6 @@ Changelog and New Features
 - Profile
 - Settings
 - Logout
-
-*******************
-architectural pattern
-*******************
-Model–view–controller (MVC)
 
 *******************
 Server Requirements
