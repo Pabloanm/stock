@@ -63,5 +63,6 @@ issues, as well as missing features.
 
 .. image:: https://raw.githubusercontent.com/Pabloanm/stock/master/captures/Stock_ERD.png?sanitize=true
 
+.. image:: https://raw.githubusercontent.com/Pabloanm/stock/master/captures/AddOrder.png?sanitize=true
 
 
