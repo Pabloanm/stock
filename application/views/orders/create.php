@@ -39,7 +39,7 @@
 
         <div class="box">
           <div class="box-header">
-            <h3 class="box-title">Nueva Orden</h3>
+            <h3 class="box-title">New Order</h3>
           </div>
           <!-- /.box-header -->
           <form role="form" action="<?php base_url('orders/create') ?>" method="post" class="form-horizontal">
@@ -57,21 +57,21 @@
                 <div class="col-md-4 col-xs-12 pull pull-left">
 
                   <div class="form-group">
-                    <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Nombre</label>
+                    <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Name</label>
                     <div class="col-sm-7">
                       <input type="text" class="form-control" id="customer_name" name="customer_name" placeholder="Enter Customer Name" autocomplete="off" />
                     </div>
                   </div>
 
                   <div class="form-group">
-                    <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Dirección</label>
+                    <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Address</label>
                     <div class="col-sm-7">
                       <input type="text" class="form-control" id="customer_address" name="customer_address" placeholder="Enter Customer Address" autocomplete="off">
                     </div>
                   </div>
 
                   <div class="form-group">
-                    <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Teléfono</label>
+                    <label for="gross_amount" class="col-sm-5 control-label" style="text-align:left;">Tel</label>
                     <div class="col-sm-7">
                       <input type="text" class="form-control" id="customer_phone" name="customer_phone" placeholder="Enter Customer Phone" autocomplete="off">
                     </div>
@@ -83,9 +83,9 @@
                 <table class="table table-bordered" id="product_info_table">
                   <thead>
                     <tr>     				
-                      <th style="width:50%">Detalle</th>
-                      <th style="width:10%">Cantidad</th>
-                      <th style="width:10%">Precio</th>
+                      <th style="width:50%">Description</th>
+                      <th style="width:10%">Quantity</th>
+                      <th style="width:10%">Price</th>
                       <th style="width:20%">Total</th>
                       <th style="width:10%"><button type="button" id="add_row" class="btn btn-default"><i class="fa fa-plus"></i></button></th>
                     </tr>
@@ -156,13 +156,13 @@
                   </div>
                   <?php endif; ?>
                   <div class="form-group">
-                    <label for="discount" class="col-sm-5 control-label">Descuento</label>
+                    <label for="discount" class="col-sm-5 control-label">Discount</label>
                     <div class="col-sm-7">
                       <input type="text" class="form-control" id="discount" name="discount" placeholder="Discount" onkeyup="subAmount()" autocomplete="off">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="net_amount" class="col-sm-5 control-label">Total a pagar</label>
+                    <label for="net_amount" class="col-sm-5 control-label">Total to pay</label>
                     <div class="col-sm-7">
                       <input type="text" class="form-control" id="net_amount" name="net_amount" disabled autocomplete="off">
                       <input type="hidden" class="form-control" id="net_amount_value" name="net_amount_value" autocomplete="off">
@@ -176,8 +176,8 @@
               <div class="box-footer">
                 <input type="hidden" name="service_charge_rate" value="<?php echo $company_data['service_charge_value'] ?>" autocomplete="off">
                 <input type="hidden" name="vat_charge_rate" value="<?php echo $company_data['vat_charge_value'] ?>" autocomplete="off">
-                <button type="submit" class="btn btn-primary">Crear Orden</button>
-                <a href="<?php echo base_url('orders/') ?>" class="btn btn-warning">Atras</a>
+                <button type="submit" class="btn btn-primary">Create Order</button>
+                <a href="<?php echo base_url('orders/') ?>" class="btn btn-warning">Back</a>
               </div>
             </form>
           <!-- /.box-body -->

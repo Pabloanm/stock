@@ -41,7 +41,7 @@
 
         <div class="box">
           <div class="box-header">
-            <h3 class="box-title">Manage Attributes</h3>
+            <h3 class="box-title">Manage Attributes for Products (Color, Size, format, package, design, weight)</h3>
           </div>
           <!-- /.box-header -->
           <div class="box-body">
