@@ -12,7 +12,7 @@ Database
 Mysql database name: stock
 
 ####################
-architectural pattern
+Architectural pattern
 ####################
 Model–view–controller (MVC)
 
