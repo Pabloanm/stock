@@ -8,6 +8,9 @@ password: password
 
 database name: stock
 
+Front: AdminLTE Ver2 
+Upgrade Guide (https://adminlte.io/docs/3.0/upgrade-guide.html)
+
 ####################
 PHP with CodeIgniter
 ####################
