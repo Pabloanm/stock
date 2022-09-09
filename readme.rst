@@ -9,7 +9,7 @@ password: password
 ######################
 Database
 ######################
-database name: stock
+Mysql database name: stock
 
 ####################
 architectural pattern
