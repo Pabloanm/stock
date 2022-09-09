@@ -46,6 +46,11 @@ Changelog and New Features
 - Logout
 
 *******************
+architectural pattern
+*******************
+Model–view–controller (MVC)
+
+*******************
 Server Requirements
 *******************
 PHP version 5.6 or newer is recommended.
