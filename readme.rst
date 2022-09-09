@@ -65,4 +65,6 @@ issues, as well as missing features.
 
 .. image:: https://raw.githubusercontent.com/Pabloanm/stock/master/captures/AddOrder.png?sanitize=true
 
+.. image:: https://raw.githubusercontent.com/Pabloanm/stock/master/captures/ManageOrders.png?sanitize=true
+
 
